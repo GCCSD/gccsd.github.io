@@ -1,4 +1,22 @@
 body {
-    background-image: url(../img/fundo.jpg);
+    font-family: "Judson";
     text-align: center;
+    background-color: #EFEFEF;
+    padding: 0;
+}
+
+#corpo {
+    width: 600px;
+    margin: 0px auto;
+    padding: 0 10px 15px 10px;
+    -moz-box-shadow: 0 0px 23px #222;
+    -webkit-box-shadow: 0 0px 23px #222;
+    -o-box-shadow: 0 0px 23px #222;
+    -ie-box-shadow: 0 0px 23px #222;
+    box-shadow: 0 0px 23px #222;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0 20px 0;
 }

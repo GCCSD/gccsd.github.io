@@ -6,9 +6,9 @@ body {
 }
 
 #corpo {
-    width: 600px;
+    width: 700px;
     margin: 0px auto;
-    padding: 0 10px 15px 10px;
+    padding: 0 0 15px 0;
     -moz-box-shadow: 0 0px 23px #222;
     -webkit-box-shadow: 0 0px 23px #222;
     -o-box-shadow: 0 0px 23px #222;
@@ -18,5 +18,9 @@ body {
 
 h1 {
     margin: 0;
-    padding: 10px 0 20px 0;
+    padding: 10px 10px 20px 10px;
+}
+
+p {
+    margin: 8px 10px;
 }

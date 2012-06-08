@@ -3,19 +3,37 @@ body {
     text-align: center;
     background-color: #efeee8;
     color: #454545;
-    max-width: 37em;
+    max-width: 40em;
     margin: 0 auto;
     padding: 0;
 }
 
-#corpo {
+header {
     margin-top: 2em;
 }
 
 h1 {
+    width: 23em;
+    margin: 1em auto;
     font-size: 1.5em;
+    text-align: center;
 }
  
-p {
+article p {
     margin-bottom: 1.5em;
+}
+
+footer {
+    border-top: 0.16em solid #a1a1a1;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline;
+    margin: 0.5em;
 }

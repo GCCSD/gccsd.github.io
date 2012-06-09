@@ -1,10 +1,39 @@
+/**
+ * Assumindo que 1em valha 16px qualquer tela menor que 480px não terá 
+ * um tamanho fixo. Como o navegador é responsivo por padrão, os textos
+ * se adaptarão à tela elegantemente. 
+ *
+ * Mas se tiver espaço suficicente (>480px) aí podemos definir um tamanho
+ * legal para que o leitor tenha espaço de respiro (é esse o termo?)
+ */
+@media all and (min-width: 30em) {
+    body { 
+        width: 40em; 
+    }
+
+    h1 { 
+        width: 23em; 
+    }
+}
+
 body {
     font: 1.1em/1.7  'Droid Sans', 'Calibri', 'Arial', 'sans-serif';
-    text-align: center;
     background-color: #efeee8;
     color: #454545;
-    max-width: 40em;
+    text-align: center;
     margin: 0 auto;
+    padding: 1em;
+}
+
+/** 
+ * Pequeno reset do CSS 
+ */
+section, header, article, figure, hgroup {
+    display: block;
+}
+
+h1, h2, ul, section, hgroup header, article, figure {
+    margin: 0;
     padding: 0;
 }
 
@@ -12,13 +41,23 @@ header {
     margin-top: 2em;
 }
 
-h1 {
-    width: 23em;
+h1, h2 {
     margin: 1em auto;
     font-size: 1.5em;
-    text-align: center;
 }
- 
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
 article p {
     margin-bottom: 1.5em;
 }
@@ -28,12 +67,6 @@ footer {
 }
 
 footer ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
-}
-
-footer li {
-    display: inline;
-    margin: 0.5em;
+    text-align: center;
 }

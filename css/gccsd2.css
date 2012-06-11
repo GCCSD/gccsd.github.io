@@ -1,12 +1,12 @@
 /**
- * Assumindo que 1em valha 16px qualquer tela menor que 480px não terá 
+ * Assumindo que 1em valha 16px qualquer tela menor que 736px não terá 
  * um tamanho fixo. Como o navegador é responsivo por padrão, os textos
  * se adaptarão à tela elegantemente. 
  *
- * Mas se tiver espaço suficicente (>480px) aí podemos definir um tamanho
+ * Mas se tiver espaço suficicente (>736px) aí podemos definir um tamanho
  * legal para que o leitor tenha espaço de respiro (é esse o termo?)
  */
-@media all and (min-width: 30em) {
+@media all and (min-width: 46em) {
     body { 
         width: 40em; 
     }

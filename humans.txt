@@ -1,0 +1,26 @@
+/* DESENVOLVEDORES */
+
+    Bruno Almeida
+    @bralpassos
+
+    Diego Souza
+    @DiegoSouza9
+
+    Evaldo Junior
+    @InFog9
+
+/* HOSPEDAGEM */
+
+    Carlos A C Valim
+    @_coragem
+
+/* AGRADECIMENTOS */
+
+    Todo o pessoal do GCCSD
+    https://groups.google.com/forum/?fromgroups#!forum/gcc-sd
+
+/* SITE */
+
+    Language: Portuguese Brazil
+    Doctype: HTML5
+    Software: Vim, Gimp

@@ -32,7 +32,7 @@ section, header, article, figure, hgroup {
     display: block;
 }
 
-h1, h2, h3, ul, section, hgroup header, article, figure {
+h1, h2, ul, section, hgroup header, article, figure {
     margin: 0;
     padding: 0;
 }
@@ -69,37 +69,4 @@ footer {
 footer ul {
     list-style: none;
     text-align: center;
-}
-
-/* 
- * Estilo para
- * barra de navegação
- */
-
-.navBar ul{
-    text-align: left;
-}
-.navBar ul li{
-    display: inline;
-    padding-right: 1.0em;
-}
-.navBar ul li a{
-    text-decoration: none;
-    color: #454545;
-}
-.navBar ul li a:hover{
-    color: #d4aa00;
-}
-
-/*
- * Programação
- * Página Ações
- */
-
-.txtAcoes{
-	text-align:left;	
-}
-.txtAcoes ul{
-	list-style-type: circle;
-	margin-left:50px;
 }

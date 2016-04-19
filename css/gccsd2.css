@@ -1,32 +1,36 @@
 /**
- * Assumindo que 1em valha 16px qualquer tela menor que 736px não terá 
+ * Assumindo que 1em valha 16px qualquer tela menor que 736px não terá
  * um tamanho fixo. Como o navegador é responsivo por padrão, os textos
- * se adaptarão à tela elegantemente. 
+ * se adaptarão à tela elegantemente.
  *
  * Mas se tiver espaço suficicente (>736px) aí podemos definir um tamanho
  * legal para que o leitor tenha espaço de respiro (é esse o termo?)
  */
 @media all and (min-width: 46em) {
-    body { 
-        width: 40em; 
+    body {
+        width: 40em;
     }
 
-    h1 { 
-        width: 23em; 
+    h1 {
+        width: 23em;
     }
 }
 
 body {
     font: 1.1em/1.7  'Droid Sans', 'Calibri', 'Arial', 'sans-serif';
-    background-color: #efeee8;
-    color: #454545;
+    background-color: #fbfbfb;
+    color: #323232;
     text-align: center;
     margin: 0 auto;
     padding: 1em;
 }
 
-/** 
- * Pequeno reset do CSS 
+.acessibilidade {
+    display: none;
+}
+
+/**
+ * Pequeno reset do CSS
  */
 section, header, article, figure, hgroup {
     display: block;
@@ -71,7 +75,7 @@ footer ul {
     text-align: center;
 }
 
-/* 
+/*
  * Estilo para
  * barra de navegação
  */
@@ -85,7 +89,7 @@ footer ul {
 }
 .navBar ul li a{
     text-decoration: none;
-    color: #454545;
+    color: #323232;
 }
 .navBar ul li a:hover{
     color: #d4aa00;
@@ -97,7 +101,7 @@ footer ul {
  */
 
 .txtAcoes{
-	text-align:left;	
+	text-align:left;
 }
 .txtAcoes ul{
 	list-style-type: circle;
